@@ -96,6 +96,10 @@ footer {
     padding: 30px 20px;
     margin-top: auto;
 }
+a {
+    text-decoration: none;
+    color: #39ff14;
+}
 button {
     display: block;
     margin: 20px auto;
@@ -107,6 +111,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease;
+}
+button:hover {
+    background-color: black;
+    color: #39ff14;
 }
 
 @media (min-width: 768px) {
